@@ -1,0 +1,19 @@
+Question.1
+ Say true or false for the below statements:
+a.prescreptive analytics used to predict the future outcomes?
+ans: False
+b.Base R packages installed automatically?
+ans: True
+
+Question 2
+What is recycling of elements in a vector?
+answer:
+While performing an arithmectic operation on any two vectors with unequal lengths ,R automatically repeats or recycles the shorter one until it is long enough to match the longer vector.
+Question .3
+Give an example of recycling of elements.
+addition of two vectors
+a=c(1,2,3,4,5,6) 
+b=c(1,3)
+a+b will be 2,5,4,7,6,9
+as c(1,3) is a shorter vector the vector repeats itself to form c(1,3,1,3,1,3) so that it could successfully match.
+
